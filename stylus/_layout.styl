@@ -43,3 +43,17 @@ section.qualifications {
 		margin-bottom: 0.25rem
 	}
 }
+
+footer {
+	&> section {
+		display: flex
+		justify-content: space-around
+		align-items: center
+		@media mq-narrow {
+			flex-direction: column
+		}
+	}
+	&> aside p {
+		text-align: right
+	}
+}

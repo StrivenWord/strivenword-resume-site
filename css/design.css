@@ -32,6 +32,10 @@ header aside {
   font-style: italic;
   font-size: 0.707rem;
 }
+footer aside p {
+  font-size: 0.707rem;
+  font-style: italic;
+}
 @media screen and (min-width: 1000px) {
   body {
     width: 75%;
@@ -77,4 +81,17 @@ section.major> h2 {
 }
 section.qualifications h3 {
   margin-bottom: 0.25rem;
+}
+footer> section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 600px) {
+  footer> section {
+    flex-direction: column;
+  }
+}
+footer> aside p {
+  text-align: right;
 }
