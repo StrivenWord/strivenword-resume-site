@@ -5,3 +5,9 @@
 -var name = "Paul Lee"
 -var email = "paul_lee@zoho.com"
 -var phone = "(315)940-1376"
+
+-var dateObj = new Date()
+-var monthDigits = dateObj.getMonth() + 1 //- https://stackoverflow.com/questions/1531093/how-do-i-get-the-current-date-in-javascript
+-var dayNumeral = dateObj.getDate()
+-var year = dateObj.getFullYear()
+-var compiledOn = monthDigits + "/" + dayNumeral + "/" + year
