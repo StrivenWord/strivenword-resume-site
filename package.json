@@ -8,7 +8,7 @@
     "css": "stylus stylus/design.styl -o css/design.css",
     "all": "pug --pretty pug/index.pug -o ./ && stylus stylus/design.styl -o css/design.css",
     "html-w": "pug -w --pretty pug/index.pug -o ./",
-    "css-w": "stylus -w --pretty stylus/design.styl -o css/design.css",
+    "css-w": "stylus -w stylus/design.styl -o css/design.css",
     "all-w": "pug -w --pretty pug/index.pug -o ./ && stylus -w stylus/design.styl -o css/design.css"
 
   },
