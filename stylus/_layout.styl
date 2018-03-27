@@ -1,0 +1,32 @@
+body {
+	@media mq-wide {
+		width: 75%
+		margin: 0 auto
+	}
+	@media mq-medium {
+		width: 90%
+		margin: 0 auto
+	}
+}
+
+header {
+	display: flex
+	align-items: center
+	@media mq-wide {
+		justify-content: space-between
+	}
+	@media mq-medium {
+		justify-content: space-around
+	}
+	@media mq-narrow {
+		flex-direction: column
+		justify-content: center
+	}
+}
+
+section.major {
+	&:first-of-type {
+		border-bottom: 2px dashed gray
+		margin-bottom: 1rem
+	}
+}

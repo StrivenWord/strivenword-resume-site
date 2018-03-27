@@ -1,0 +1,39 @@
+* {
+  font-size: 16px;
+}
+@media screen and (min-width: 1000px) {
+  body {
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 999px) {
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+header {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 1000px) {
+  header {
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 480px) and (max-width: 999px) {
+  header {
+    justify-content: space-around;
+  }
+}
+@media screen and (max-width: 479px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+section.major:first-of-type {
+  border-bottom: 2px dashed #808080;
+  margin-bottom: 1rem;
+}

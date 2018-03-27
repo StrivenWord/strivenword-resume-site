@@ -4,7 +4,13 @@
   "description": "My resume site",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "html": "pug --pretty pug/index.pug -o ./",
+    "css": "stylus stylus/design.styl -o css/design.css",
+    "all": "pug --pretty pug/index.pug -o ./ && stylus stylus/design.styl -o css/design.css",
+    "html-w": "pug -w --pretty pug/index.pug -o ./",
+    "css-w": "stylus -w --pretty stylus/design.styl -o css/design.css",
+    "all-w": "pug -w --pretty pug/index.pug -o ./ && stylus -w stylus/design.styl -o css/design.css"
+
   },
   "repository": {
     "type": "git",
