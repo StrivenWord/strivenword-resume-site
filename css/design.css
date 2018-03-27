@@ -75,3 +75,6 @@ section.major:last-of-type {
 section.major> h2 {
   text-align: center;
 }
+section.qualifications h3 {
+  margin-bottom: 0.25rem;
+}
