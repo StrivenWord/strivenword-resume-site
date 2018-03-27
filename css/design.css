@@ -27,6 +27,11 @@ header aside {
   font-size: 0.707rem;
   font-style: italic;
 }
+.context p {
+  font-family: "Helvetica Neue", "Arial", "Helvetica", "Noto Sans", "PT Sans", sans-serif;
+  font-style: italic;
+  font-size: 0.707rem;
+}
 @media screen and (min-width: 1000px) {
   body {
     width: 75%;
@@ -59,9 +64,13 @@ header {
     justify-content: center;
   }
 }
-section.major:first-of-type {
+section.major:not(:last-of-type) {
   border-bottom: 2px dashed #808080;
   margin-bottom: 1rem;
+  padding-bottom: 1rem;
+}
+section.major:last-of-type {
+  margin-bottom: 3rem;
 }
 section.major> h2 {
   text-align: center;

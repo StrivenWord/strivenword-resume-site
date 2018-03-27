@@ -25,9 +25,13 @@ header {
 }
 
 section.major {
-	&:first-of-type {
+	&:not(:last-of-type) {
 		border-bottom: 2px dashed gray
 		margin-bottom: 1rem
+		padding-bottom: 1rem
+	}
+	&:last-of-type {
+		margin-bottom: 3rem
 	}
 	&> h2 {
 		text-align: center
