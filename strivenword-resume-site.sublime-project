@@ -1,0 +1,37 @@
+{
+    "folders":
+    [
+        {
+            "path": "./",
+            "folder_exclude_patterns": ["./css"],
+            "follow_symlinks": true
+        },
+        {
+            "path": "pug",
+            "name": "Pug Source Sub-Project",
+        },
+        {
+            "path": "stylus",
+            "name": "Stylus Source Sub-Project",
+        }
+    ],
+    "settings":
+    {
+        "tab_size": 4
+    },
+    "build_systems":
+    [
+        {
+            "name": "Compile HTML",
+            "shell_cmd": "pug --pretty pug/index.pug -o ./"
+        },
+        {
+            "name": "Compile Stylus",
+            "shell_cmd": "stylus stylus/design.styl -o css/design.css"
+        },
+        {
+            "name": "Compile HTML and Stylus",
+            "shell_cmd": "pug --pretty pug/index.pug -o ./ && stylus stylus/design.styl -o css/design.css"
+        }
+    ]
+}
