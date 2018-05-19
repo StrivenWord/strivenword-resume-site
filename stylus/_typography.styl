@@ -2,6 +2,7 @@
 	font-size: 19px
 	@media mq-narrow {
 		font-size: 16px
+		color: darkBase
 	}
 }
 
@@ -12,18 +13,29 @@ body {
 	}
 	h1 {
 		font-size: 3.998rem
+		// color: lightAccent
 	}
 	h2 {
 		font-size: 2.827rem
 	}
 	h3 {
 		font-size: 1.414rem
+		color: darkAccent
+	}
+	a {
+		&:hover {
+			color: lightAccent2 !important
+		}
+		&:visited, {
+			color: lightAccent
+		}
 	}
 }
 
 header aside {
 	font-size: 0.707rem
 	font-style: italic
+	// color: lightAccent
 }
 
 .context p {
