@@ -4,12 +4,12 @@
   "description": "My resume site",
   "main": "index.html",
   "scripts": {
-    "html": "pug --pretty pug/index.pug -o ./",
+    "html": "pug --pretty pug/*.pug -o ./",
     "css": "stylus stylus/design.styl -o css/design.css",
-    "all": "pug --pretty pug/index.pug -o ./ && stylus stylus/design.styl -o css/design.css",
-    "html-w": "pug -w --pretty pug/index.pug -o ./",
+    "all": "pug --pretty pug/*.pug -o ./ && stylus stylus/design.styl -o css/design.css",
+    "html-w": "pug -w --pretty pug/*.pug -o ./",
     "css-w": "stylus -w stylus/design.styl -o css/design.css",
-    "all-w": "pug -w --pretty pug/index.pug -o ./ && stylus -w stylus/design.styl -o css/design.css"
+    "all-w": "pug -w --pretty pug/*.pug -o ./ && stylus -w stylus/design.styl -o css/design.css"
   },
   "repository": {
     "type": "git",
