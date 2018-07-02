@@ -10,7 +10,6 @@
     "html-w": "pug -w --pretty pug/index.pug -o ./",
     "css-w": "stylus -w stylus/design.styl -o css/design.css",
     "all-w": "pug -w --pretty pug/index.pug -o ./ && stylus -w stylus/design.styl -o css/design.css"
-
   },
   "repository": {
     "type": "git",
