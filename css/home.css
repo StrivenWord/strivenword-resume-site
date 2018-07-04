@@ -1,0 +1,53 @@
+* {
+  font-size: 19px;
+}
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 16px;
+    color: #2e3436;
+  }
+}
+body {
+  font-family: "Times New Roman", "Times", "Linux Libertine", "PT Serif", "Noto Serif", serif;
+}
+body h1,
+body h2,
+body h3 {
+  font-family: "Helvetica Neue", "Arial", "Helvetica", "Noto Sans", "PT Sans", sans-serif;
+}
+body h1 {
+  font-size: 3.998rem;
+}
+body h2 {
+  font-size: 2.827rem;
+}
+body h3 {
+  font-size: 1.414rem;
+  color: #30502c;
+}
+body a:hover {
+  color: #71e964 !important;
+}
+body a:visited {
+  color: #d35400;
+}
+header aside {
+  font-size: 0.707rem;
+  font-style: italic;
+}
+.context p {
+  font-family: "Helvetica Neue", "Arial", "Helvetica", "Noto Sans", "PT Sans", sans-serif;
+  font-style: italic;
+  font-size: 0.707rem;
+}
+footer aside p {
+  font-size: 0.707rem;
+  font-style: italic;
+}
+body {
+  background-image: url("img/abstract-keyboard.jpg");
+  background-origin: content-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
