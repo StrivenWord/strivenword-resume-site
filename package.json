@@ -11,6 +11,11 @@
     "css-w": "stylus -w stylus/design.styl -o css/design.css",
     "all-w": "pug -w --pretty pug/*.pug -o ./ && stylus -w stylus/design.styl -o css/design.css"
   },
+  "dependencies": {
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6",
+    "stylus": "^0.54.5"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/StrivenWord/strivenword-resume-site.git"
