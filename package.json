@@ -5,11 +5,11 @@
   "main": "index.html",
   "scripts": {
     "html": "pug --pretty pug/*.pug -o ./",
-    "css": "stylus stylus/design.styl -o css/design.css",
-    "all": "pug --pretty pug/*.pug -o ./ && stylus stylus/design.styl -o css/design.css",
+    "css": "stylus stylus/*.styl -o css/",
+    "all": "pug --pretty pug/*.pug -o ./ && stylus stylus/*.styl -o css/",
     "html-w": "pug -w --pretty pug/*.pug -o ./",
-    "css-w": "stylus -w stylus/design.styl -o css/design.css",
-    "all-w": "pug -w --pretty pug/*.pug -o ./ && stylus -w stylus/design.styl -o css/design.css"
+    "css-w": "stylus -w stylus/*.styl -o css/",
+    "all-w": "pug -w --pretty pug/*.pug -o ./ && stylus -w stylus/*.styl -o css/"
   },
   "dependencies": {
     "pug": "^2.0.3",
