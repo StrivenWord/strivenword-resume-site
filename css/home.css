@@ -50,6 +50,24 @@ footer aside p {
   font-size: 0.707rem;
   font-style: italic;
 }
+.contain {
+  display: grid;
+}
+@media screen and (min-width: 1000px) {
+  .contain {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 999px) {
+  .contain {
+    width: 66.667%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contain {
+    width: 75%;
+  }
+}
 body {
   background-image: url("../img/abstract-keyboard.jpg");
   background-origin: content-box;

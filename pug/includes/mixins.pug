@@ -13,3 +13,16 @@ mixin gh(element)
 		p Hosted with 
 			a(href='https://github.com/StrivenWord/strivenword-resume-site') GitHub 
 			| Pages
+
+// Mixins for outputting images with color control
+
+mixin svgimage_swordinfinity(boxsize, fillcolor)
+	svg(xmlns="http://www.w3.org/2000/svg" width=""+boxsize+"" height=""+boxsize+"" viewBox="0 0 2816.47 2864.823")
+		path(fill=""+fillcolor+"" d="M-24.177 0h2864.823v2864.823H-24.177z")
+		// Putting the bulk of the SVG info in a separate file
+		include svgdata/swordinfinity_path.htm
+
+mixin svgimage_subcreator(boxsize)
+	svg(xmlns="http://www.w3.org/2000/svg" width=""+boxsize+"" height=""+boxsize+"")
+	// Putting the bulk of the SVG info in a separate file
+	include svgdata/subcreator_path.htm
