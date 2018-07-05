@@ -7,9 +7,11 @@ doctype html
 body.decorate
 
 	div.contain
-		+svgimage_swordinfinity('250', '#ececec')
 
-		nav
+		div.svgwrap#sitelogo
+			+svgimage_swordinfinity('250', '#ececec')
+
+		nav.linkpane
 			ul
 				li
 					a(href='resume.html') R&eacute;sum&eacute;
@@ -25,5 +27,6 @@ body.decorate
 		footer
 			+gh('section')
 			div.endnote
-				+svgimage_subcreator('250', '#ececec')
+				div.svgwrap#footergraphic
+					+svgimage_subcreator('250', '#ececec')
 				p.sdg soli deo gloria

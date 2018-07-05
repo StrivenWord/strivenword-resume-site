@@ -52,6 +52,9 @@ footer aside p {
 }
 .contain {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0.5rem;
+  grid-auto-rows: minmax(1rem, auto);
 }
 @media screen and (min-width: 1000px) {
   .contain {
@@ -67,6 +70,25 @@ footer aside p {
   .contain {
     width: 75%;
   }
+}
+.svgwrap {
+  grid-column: 2;
+}
+#sitelogo {
+  grid-row: 1;
+}
+#footergraphic {
+  grid-row: 3;
+}
+.linkpane {
+  grid-row: 2;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+footer {
+  grid-row: 4;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
 body {
   background-image: url("../img/abstract-keyboard.jpg");
