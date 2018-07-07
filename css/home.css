@@ -64,6 +64,13 @@ footer aside p {
 .linkpane li:not(first-of-type) {
   padding-top: 0.25rem;
 }
+.linkpane li.exlink a::after {
+  content: "⤴";
+  font-size: 0.75rem;
+  position: relative;
+  bottom: 2px;
+  left: 2px;
+}
 .linkpane a {
   text-decoration: none;
 }
@@ -73,13 +80,6 @@ footer aside p {
   position: relative;
   bottom: 2px;
   right: 2px;
-}
-.linkpane a::after {
-  content: "⤴";
-  font-size: 0.75rem;
-  position: relative;
-  bottom: 2px;
-  left: 2px;
 }
 .contain {
   display: grid;

@@ -19,15 +19,15 @@ asciiapend(asciichar) {
 		&:not(first-of-type) {
 			padding-top: 0.25rem
 		}
+		&.exlink a::after {
+			asciiapend("⤴")
+			left: 2px
+		}
 	}
 	a {
 		text-decoration: none
 		&::before {
 			asciiapend("⊞")
-		}
-		&::after {
-			asciiapend("⤴")
-			left: 2px
 		}
 	}
 }
