@@ -25,8 +25,10 @@ body.decorate
 					a(href='https://github.com/StrivenWord') GitHub
 
 		footer
-			+gh('section')
-			div.svgwrap#footergraphic
-				+svgimage_subcreator('250', 'lightGray')
+			aside
+				+gh('div')
+				+updated('div')
 			div.endnote
+				div.svgwrap#footergraphic
+					+svgimage_subcreator('125', 'lightGray')
 				p.sdg soli deo gloria

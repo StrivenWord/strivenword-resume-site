@@ -31,6 +31,12 @@ body h3 {
   font-size: 1.414rem;
   color: #30502c;
 }
+body a {
+  color: #4d4d4d;
+  text-decoration: none;
+  border-bottom: 1px dashed #d35400;
+  font-size: 1em;
+}
 body a:hover {
   color: #71e964 !important;
 }
@@ -116,6 +122,15 @@ footer aside p {
     width: 75%;
   }
 }
+.contain p {
+  color: #acacac;
+}
+.contain a {
+  color: #ececec;
+}
+.contain a:visited {
+  color: #d35400;
+}
 .svgwrap {
   grid-column: 2;
 }
@@ -131,6 +146,9 @@ footer aside p {
   grid-column-end: 4;
   background-color: rgba(113,233,100,0.5);
   border: 0.25rem ridge #30502c;
+}
+.linkpane a {
+  border: none;
 }
 footer {
   grid-row: 4;

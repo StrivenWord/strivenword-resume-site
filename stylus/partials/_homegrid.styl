@@ -13,6 +13,15 @@
 		width: 75%
 	}
 	margin: 0 auto
+	p {
+		color: midGray
+	}
+	a {
+		color: lightGray
+		&:visited {
+			color: lightAccent
+		}
+	}
 }
 
 .svgwrap {
@@ -31,6 +40,10 @@
 	grid-column-end: 4
 	background-color: alpha(lightAccent2, 0.5)
 	border: 0.25rem ridge darkAccent
+	// Cancelling border applied to links in _typography.styl:
+	a {
+		border: none
+	}
 }
 
 footer {
