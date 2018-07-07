@@ -14,12 +14,12 @@ body {
   }
 }
 body {
-  font-family: "Times New Roman", "Times", "Linux Libertine", "PT Serif", "Noto Serif", serif;
+  font-family: "EB Garamond", serif;
 }
 body h1,
 body h2,
 body h3 {
-  font-family: "Helvetica Neue", "Arial", "Helvetica", "Noto Sans", "PT Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 body h1 {
   font-size: 3.998rem;
@@ -42,7 +42,7 @@ header aside {
   font-style: italic;
 }
 .context p {
-  font-family: "Helvetica Neue", "Arial", "Helvetica", "Noto Sans", "PT Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-style: italic;
   font-size: 0.707rem;
 }
