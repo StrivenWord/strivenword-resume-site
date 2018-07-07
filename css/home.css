@@ -66,22 +66,33 @@ footer aside p {
 }
 .linkpane li.exlink a::after {
   font-family: "Source Sans Pro", sans-serif;
+  color: #d35400;
   content: "⤴";
-  font-size: 0.75rem;
+  font-size: 0.55rem;
   position: relative;
-  bottom: 2px;
+  bottom: 4px;
   left: 2px;
 }
 .linkpane a {
   text-decoration: none;
+  font-variant: small-caps;
+  color: #ececec;
 }
 .linkpane a::before {
   font-family: "Source Sans Pro", sans-serif;
+  color: #d35400;
   content: "⊞";
-  font-size: 0.75rem;
+  font-size: 0.55rem;
   position: relative;
-  bottom: 2px;
+  bottom: 4px;
   right: 2px;
+}
+.linkpane a:hover {
+  text-transform: uppercase;
+  color: #ececec !important;
+}
+.linkpane a:visited {
+  color: #4d4d4d;
 }
 .contain {
   display: grid;

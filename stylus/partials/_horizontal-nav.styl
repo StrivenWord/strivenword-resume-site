@@ -1,10 +1,11 @@
 // mixin for the ASCII character inclusions
 asciiapend(asciichar) {
 	font-family: sanserifs
+	color: lightAccent
 	content: asciichar
-	font-size: 0.75rem
+	font-size: 0.55rem
 	position: relative
-	bottom: 2px
+	bottom: 4px
 	right: 2px unless @left // unless 'left' property defined separately
 }
 
@@ -30,5 +31,14 @@ asciiapend(asciichar) {
 		&::before {
 			asciiapend("⊞")
 		}
+		font-variant: small-caps
+		color: lightGray
+	}
+	a:hover {
+		text-transform: uppercase
+		color: lightGray !important
+	}
+	a:visited {
+		color: darkGray
 	}
 }
