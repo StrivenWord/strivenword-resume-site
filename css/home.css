@@ -101,9 +101,13 @@ footer aside p {
   color: #4d4d4d;
 }
 .contain {
+  padding-top: 2em;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.5rem;
+  column-gap: 0.5rem;
+  grid-column-gap: 0.5rem;
+  row-gap: 2em;
+  grid-row-gap: 1.5;
   grid-auto-rows: minmax(1rem, auto);
   margin: 0 auto;
 }
@@ -158,6 +162,13 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+#footergraphic {
+  padding-top: 1em;
+  padding-bottom: 0.5em;
+}
+p.sdg {
+  text-align: center;
 }
 body {
   background-image: url("../img/abstract-keyboard.jpg");
