@@ -50,6 +50,37 @@ footer aside p {
   font-size: 0.707rem;
   font-style: italic;
 }
+.linkpane {
+  padding: 1rem 0;
+}
+.linkpane ul {
+  max-width: 300px;
+  min-width: 200px;
+  margin: 0 auto;
+}
+.linkpane li {
+  list-style: none;
+}
+.linkpane li:not(first-of-type) {
+  padding-top: 0.25rem;
+}
+.linkpane a {
+  text-decoration: none;
+}
+.linkpane a::before {
+  content: "⊞";
+  font-size: 0.75rem;
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+}
+.linkpane a::after {
+  content: "⤴";
+  font-size: 0.75rem;
+  position: relative;
+  bottom: 2px;
+  left: 2px;
+}
 .contain {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -85,6 +116,8 @@ footer aside p {
   grid-row: 2;
   grid-column-start: 1;
   grid-column-end: 4;
+  background-color: rgba(113,233,100,0.5);
+  border: 0.25rem ridge #30502c;
 }
 footer {
   grid-row: 4;

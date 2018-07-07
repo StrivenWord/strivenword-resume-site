@@ -1,0 +1,33 @@
+// mixin for the ASCII character inclusions
+asciiapend(asciichar) {
+	content: asciichar
+	font-size: 0.75rem
+	position: relative
+	bottom: 2px
+	right: 2px unless @left // unless 'left' property defined separately
+}
+
+.linkpane {
+	padding: 1rem 0
+	ul {
+		max-width: 300px
+		min-width: 200px // about 3 times the pixel width of the word "Facebook"	
+		margin: 0 auto
+	}
+	li {
+		list-style: none
+		&:not(first-of-type) {
+			padding-top: 0.25rem
+		}
+	}
+	a {
+		text-decoration: none
+		&::before {
+			asciiapend("⊞")
+		}
+		&::after {
+			asciiapend("⤴")
+			left: 2px
+		}
+	}
+}
