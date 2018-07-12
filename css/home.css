@@ -155,7 +155,9 @@ body {
   border: 0.25rem ridge #30502c;
 }
 .linkpane a {
+  font-size: 2em;
   border: none;
+  text-shadow: 2px 2px 1px #4d4d4d;
 }
 footer {
   grid-row: 4;
@@ -172,6 +174,9 @@ footer {
 }
 p.sdg {
   text-align: center;
+  position: relative;
+  bottom: 2rem;
+  color: #ececec;
 }
 body {
   background-image: url("../img/abstract-keyboard.jpg");
