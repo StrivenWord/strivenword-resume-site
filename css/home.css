@@ -100,6 +100,9 @@ footer aside p {
 .linkpane a:visited {
   color: #4d4d4d;
 }
+body {
+  background-color: #001040;
+}
 .contain {
   padding-top: 2em;
   display: grid;
