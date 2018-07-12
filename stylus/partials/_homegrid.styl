@@ -52,7 +52,12 @@ body {
 	a {
 		font-size: 2em
 		border: none
-		text-shadow: 2px 2px 1px darkGray
+		text-shadow: 2px 3px 0 darkGray
+		&::before, &::after {
+			// unsetting decorations for the little ASCII graphic things
+			color: lightGray
+			text-shadow: none
+		}
 	}
 }
 

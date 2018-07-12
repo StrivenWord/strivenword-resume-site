@@ -72,11 +72,10 @@ footer aside p {
 }
 .linkpane li.exlink a::after {
   font-family: "Source Sans Pro", sans-serif;
-  color: #d35400;
   content: "⤴";
-  font-size: 0.55rem;
+  font-size: 0.75rem;
   position: relative;
-  bottom: 4px;
+  bottom: 5px;
   left: 2px;
 }
 .linkpane a {
@@ -86,11 +85,10 @@ footer aside p {
 }
 .linkpane a::before {
   font-family: "Source Sans Pro", sans-serif;
-  color: #d35400;
   content: "⊞";
-  font-size: 0.55rem;
+  font-size: 0.75rem;
   position: relative;
-  bottom: 4px;
+  bottom: 5px;
   right: 2px;
 }
 .linkpane a:hover {
@@ -157,7 +155,12 @@ body {
 .linkpane a {
   font-size: 2em;
   border: none;
-  text-shadow: 2px 2px 1px #4d4d4d;
+  text-shadow: 2px 3px 0 #4d4d4d;
+}
+.linkpane a::before,
+.linkpane a::after {
+  color: #ececec;
+  text-shadow: none;
 }
 footer {
   grid-row: 4;
