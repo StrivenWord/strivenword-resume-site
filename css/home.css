@@ -81,6 +81,7 @@ footer aside p {
 .linkpane a {
   text-decoration: none;
   font-variant: small-caps;
+  font-family: "Source Sans Pro", sans-serif;
   color: #ececec;
 }
 .linkpane a::before {
