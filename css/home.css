@@ -182,9 +182,12 @@ p.sdg {
   bottom: 2rem;
   color: #ececec;
 }
-body {
+div.decorate {
+  width: 100%;
+  position: absolute;
+  top: 0;
   background-image: url("../img/abstract-keyboard.jpg");
-  background-origin: content-box;
+  background-origin: padding-box;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

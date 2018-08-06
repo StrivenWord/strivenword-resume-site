@@ -4,31 +4,33 @@ doctype html
 
 +headinfo('Design and Writing by Paul Lee', 'home')
 
-body.decorate
+body
 
-	div.contain
+	div.decorate
 
-		div.svgwrap#sitelogo
-			+svgimage_swordinfinity('250', 'lightGray')
+		div.contain
 
-		nav.linkpane
-			ul
-				li
-					a(href='resume.html') R&eacute;sum&eacute;
-				li
-					a(href='http://transcendentdestinies.net/') Writing
-				li.exlink
-					a(href='http://strivenword.tumblr.com/') Tumblr
-				li.exlink
-					a(href='https://www.facebook.com/paullee.strivenword') Facebook
-				li.exlink
-					a(href='https://github.com/StrivenWord') GitHub
+			div.svgwrap#sitelogo
+				+svgimage_swordinfinity('250', 'lightGray')
 
-		footer
-			aside
-				+gh('div')
-				+updated('div')
-			div.endnote
-				div.svgwrap#footergraphic
-					+svgimage_subcreator('125', 'lightGray')
-				p.sdg soli deo gloria
+			nav.linkpane
+				ul
+					li
+						a(href='resume.html') R&eacute;sum&eacute;
+					li
+						a(href='http://transcendentdestinies.net/') Writing
+					li.exlink
+						a(href='http://strivenword.tumblr.com/') Tumblr
+					li.exlink
+						a(href='https://www.facebook.com/paullee.strivenword') Facebook
+					li.exlink
+						a(href='https://github.com/StrivenWord') GitHub
+
+			footer
+				aside
+					+gh('div')
+					+updated('div')
+				div.endnote
+					div.svgwrap#footergraphic
+						+svgimage_subcreator('125', 'lightGray')
+					p.sdg soli deo gloria
