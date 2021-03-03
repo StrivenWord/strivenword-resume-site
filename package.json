@@ -12,7 +12,7 @@
     "all-w": "pug -w --pretty pug/*.pug -o ./ && stylus -w stylus/*.styl -o css/"
   },
   "dependencies": {
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-cli": "^1.0.0-alpha6",
     "stylus": "^0.54.5"
   },
